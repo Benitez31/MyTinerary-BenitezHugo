@@ -1,14 +1,16 @@
-import { useState } from 'react'
+import { useState } from 'react';
+import Home from './pages/Index/Home';
+import Layout from './layouts/Layout';
 
-import viteLogo from '/vite.svg'
+
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      
+      <Layout>
+        <Home />
+      </Layout>
     </>
   )
 }
