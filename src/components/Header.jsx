@@ -8,7 +8,12 @@ import {TbGridDots} from 'react-icons/tb';
 const Header = () => {
     const links = [
         {title:'Home', to: './home'},
-        {title:'Destinations', to: './Destinations'}
+        {title:'Packages', to: './packages'},
+        {title:'Shop', to: './shop'},
+        {title:'About', to: './about'},
+        {title:'Pages', to: './pages'},
+        {title:'News', to: './news'},
+        {title:'Contact', to: './contact'}
     ]
     const [ active, setActive] = useState('navBar');
 
