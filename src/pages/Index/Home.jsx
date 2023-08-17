@@ -8,6 +8,8 @@ import {HiFilter} from 'react-icons/hi'
 import {FiFacebook} from 'react-icons/fi'
 import {AiOutlineInstagram} from 'react-icons/ai'
 import {FaTripadvisor} from 'react-icons/fa'
+import {BsListTask} from 'react-icons/bs'
+import {TbApps} from 'react-icons/tb'
 
 export default function Home() {
   return (
@@ -25,9 +27,7 @@ export default function Home() {
 
             <h1 className="homeTitle">
               Search your Holiday
-            </h1>
-
-            <Carrousel />
+            </h1>            
 
           </div>
           <div className="cardDiv grid">
@@ -65,10 +65,12 @@ export default function Home() {
               <AiOutlineInstagram className='icon' />
               <FaTripadvisor className='icon' />
             </div>
-            <div className="lefttIcons"></div>
+            <div className="lefttIcons">
+            <BsListTask className='icon' />
+            <TbApps className='icon' />
+            </div>
           </div>
-        </div>
-        <HeroCallToAction />
+        </div>      
 
       </section>
 

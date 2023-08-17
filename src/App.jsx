@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Home from './pages/Index/Home';
-import Layout from './layouts/Layout';
+import Header from './components/Header';
+import Main from './pages/Index/Main'
 
 
 import './App.css'
@@ -8,9 +9,9 @@ import './App.css'
 function App() {
   return (
     <>
-      <Layout>
-        <Home />
-      </Layout>
+      <Header />
+      <Home />
+      <Main />
     </>
   )
 }

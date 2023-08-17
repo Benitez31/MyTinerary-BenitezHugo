@@ -1,0 +1,85 @@
+[
+    {
+      "id": 1,
+      "imgSrc": "https://insiderjourneys.com.au/wp-content/uploads/2020/01/Indonesia-Bali-pura-ulun-danu-bratan-temple-shutterstock_638432449-1920.jpg",
+      "destTitle": "Bali Island",
+      "location": "Indonesia",
+      "grade": "CULTURAL RELAX",
+      "fees": "$1000",
+      "description": "Discover the serene beauty of Bali Island, with its lush landscapes, vibrant culture, and stunning beaches."
+    },
+    {
+      "id": 2,
+      "imgSrc": "https://th.bing.com/th/id/R.0b56c7ea78438b17a83af10b6195b85d?rik=4cHlLaJlLczy8w&pid=ImgRaw&r=0",
+      "destTitle": "Taj Mahal",
+      "location": "India",
+      "grade": "CULTURAL RELAX",
+      "fees": "$2500",
+      "description": "Visit the iconic Taj Mahal, a testament to eternal love, and marvel at its breathtaking architecture."
+    },
+    {
+      "id": 3,
+      "imgSrc": "https://www.peregrineadventures.com/sites/peregrine/files/styles/low-quality/public/Angkor_Wat_7_0.jpg",
+      "destTitle": "Angkor Wat",
+      "location": "Cambodia",
+      "grade": "CULTURAL RELAX",
+      "fees": "$2000",
+      "description": "Explore the ancient ruins of Angkor Wat, a UNESCO World Heritage Site and the largest religious monument in the world."
+    },
+    {
+      "id": 4,
+      "imgSrc": "https://th.bing.com/th/id/OIP.iFfr2gDlmeGZdo9_NCkPgQHaFS?pid=ImgDet&rs=1",
+      "destTitle": "Cinque Terre",
+      "location": "Italy",
+      "grade": "CULTURAL RELAX",
+      "fees": "$1200",
+      "description": "Experience the colorful charm of Cinque Terre's seaside villages, where culture meets the Mediterranean."
+    },
+    {
+      "id": 5,
+      "imgSrc": "https://th.bing.com/th/id/R.d88f01d90a73de12581018346e3c9c02?rik=pu5fEmZmKa8zbQ&pid=ImgRaw&r=0",
+      "destTitle": "Guanajuato",
+      "location": "Mexico",
+      "grade": "CULTURAL RELAX",
+      "fees": "$900",
+      "description": "Stroll through the colonial streets of Guanajuato and soak in the rich history and vibrant arts scene."
+    },
+    {
+      "id": 6,
+      "imgSrc": "https://toursce.com/blog/wp-content/uploads/2018/07/Cappadocia.jpg",
+      "destTitle": "Cappadocia",
+      "location": "Turkey",
+      "grade": "CULTURAL RELAX",
+      "fees": "$1800",
+      "description": "Marvel at the otherworldly landscapes of Cappadocia and take a hot air balloon ride for a unique perspective."
+    },
+    {
+      "id": 7,
+      "imgSrc": "https://th.bing.com/th/id/OIP.2_2E7dQD3K32K9QruEqX1gHaEK?pid=ImgDet&rs=1",
+      "destTitle": "Great Barrier Reef",
+      "location": "Australia",
+      "grade": "CULTURAL RELAX",
+      "fees": "$950",
+      "description": "Dive into the colorful underwater world of the Great Barrier Reef, a UNESCO-listed wonder teeming with marine life."
+    },
+    {
+      "id": 8,
+      "imgSrc": "https://th.bing.com/th/id/OIP.d2IcwPJFNv7JG_7etT5RpAHaE6?pid=ImgDet&rs=1",
+      "destTitle": "Machu Picchu",
+      "location": "Peru",
+      "grade": "CULTURAL RELAX",
+      "fees": "$700",
+      "description": "Uncover the mystery of Machu Picchu, an ancient Incan citadel nestled in the Andes mountains."
+    },
+    {
+      "id": 9,
+      "imgSrc": "https://tahitinuitravel.com/wp-content/uploads/sites/5/2016/08/BOB-Conrad-Bora-Nui-Aerial-view-15-1.jpg",
+      "destTitle": "Bora Bora",
+      "location": "French Polynesia",
+      "grade": "CULTURAL RELAX",
+      "fees": "$4000",
+      "description": "Relax in overwater bungalows and indulge in the natural beauty of Bora Bora's turquoise lagoon."
+    }
+]  
+
+  
