@@ -1,6 +1,4 @@
 import React from 'react'
-import HeroCallToAction from '../../components/HeroCallToAction'
-import Carrousel from '../../components/Carrousel'
 import video from '../../images/video2.mp4'
 import '../../styles/Home.scss'
 import { GrLocation } from 'react-icons/gr'

@@ -55,13 +55,15 @@ a{
     border: none;
     outline: none;
     cursor: pointer;
+    
  }
 
  .btn a{
     color: var(--whiteColor);
     font-weight: 500;
  }
- btn:hover{
+  
+ .btn:hover{
     background: var(--SecondaryColor);
  }
 
