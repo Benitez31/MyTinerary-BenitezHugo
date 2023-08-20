@@ -1,12 +1,16 @@
 import React from 'react'
 import '../styles/Footer.scss'
 import video from '../images/videofooter2.mp4'
-import { FiSend } from 'react-icons/fi'
+import { FiSend, FiChevronRight } from 'react-icons/fi'
 import { SiYourtraveldottv } from 'react-icons/si'
 import { FaTripadvisor } from 'react-icons/fa'
-import {AiOutlineTwitter, AiFillYoutube} from 'react-icons/ai'
+import { AiOutlineTwitter, AiFillYoutube, AiFillInstagram } from 'react-icons/ai'
+
 
 const Footer = () => {
+  const listOurAgency = ["Services", "Insurance", "Agency", "Tourism", "Payment"]
+  const listPartners = ["Bookings", "Rentcars", "Hostel Word", "Trivago", "TripAdvisor"]
+  const listLastMinute = ["London", "California", "Indonesia", "Europe", "Oceania"]
   return (
     <section className="footer">
       <div className="videoDiv">
@@ -45,14 +49,60 @@ const Footer = () => {
               consectetur quos facilis sit, incidunt adipisci?
             </div>
 
-            <div className="footersocials">
+            <div className="footersocials flex">
               <AiOutlineTwitter className='icon' />
               <AiFillYoutube className='icon' />
+              <AiFillInstagram className='icon' />
               <FaTripadvisor className='icon' />
             </div>
           </div>
 
-          <div className="footerLinks grid"></div>
+          <div className="footerLinks grid">
+            <div className="linkGroup">
+              <span className="groupTitle">
+                OUR AGENCY
+              </span>
+              <ul>
+                {listOurAgency.map((item) => (
+                  <li className="footerList flex" >
+                    <FiChevronRight className='icon' />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="linkGroup">
+              <span className="groupTitle">
+                PARTNERS
+              </span>
+              <ul>
+                {listPartners.map((item) => (
+                  <li className="footerList flex" >
+                    <FiChevronRight className='icon' />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="linkGroup">
+              <span className="groupTitle">
+                LAST MINUTE
+              </span>
+              <ul>
+                {listLastMinute.map((item) => (
+                  <li className="footerList flex" >
+                    <FiChevronRight className='icon' />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+
+          <div className="footerDiv flex">
+            <small>BEST TRAVEL WEBSITE THEME</small>
+            <small>COPIRIGHTS RESERVED-ISRATECH 2022</small>
+          </div>
         </div>
       </div>
     </section>
